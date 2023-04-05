@@ -31,3 +31,4 @@ This is a solution to the [https://www.frontendmentor.io/challenges/social-proof
 - Name - Victória Nogueira
 - Frontend Mentor - [https://www.frontendmentor.io/profile/victoriamnx]
 - GitHub - [https://github.com/victoriamnx]
+
