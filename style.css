@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+  color: hsl(300, 43%, 22%);
+  background-color: hsl(0, 0%, 100%);
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  /* padding: 200px; */
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#firsttext {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+#firsttext h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 10px;
+}
+
+#firsttext p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(303, 10%, 53%);
+  margin-bottom: 10px;
+}
+
+.rate #star {
+  margin: 5px;
+}
+
+.rate {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.rate #rate1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 45px 12px 25px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  background-color: hsla(315, 20%, 96%, 1);
+}
+
+.rate #rate2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 35px 12px 25px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  background-color: hsla(315, 20%, 96%, 1);
+}
+
+.rate #rate3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 70px 12px 25px;
+  margin-left: 90px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  background-color: hsla(315, 20%, 96%, 1);
+}
+
+.rate p {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(300, 43%, 22%);
+  margin-left: 10px;
+}
+
+.reviews img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.reviews div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(300, 43%, 22%);
+}
+
+.reviews #box1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.reviews #box2 {
+  margin-bottom: 40px;
+}
+.reviews #box3 {
+  margin-bottom: 20px;
+}
+
+.reviews #title h1 {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.reviews #title h2 {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(333, 80%, 67%);
+}
+
+.reviews p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(300, 24%, 96%);
+}
+
+.attribution {
+  padding-top: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(333, 80%, 67%);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: hsl(333, 80%, 67%);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
