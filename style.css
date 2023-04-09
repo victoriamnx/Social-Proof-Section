@@ -49,7 +49,7 @@ body {
   font-weight: 900;
   font-family: "League Spartan", sans-serif;
   color: hsl(300, 43%, 22%);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #firsttext p {
@@ -130,17 +130,13 @@ body {
 
 .reviews {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
   flex-direction: row;
-  width: 100%;
-  height: 100%;
-  font-family: "League Spartan", sans-serif;
-  font-weight: 500;
-  background-color: hsl(0, 0%, 100%);
+  justify-content: center;
+  padding: 20px;
 }
 
-.reviews div {
+/* .reviews div {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -152,20 +148,41 @@ body {
   font-weight: 500;
   color: hsl(0, 0%, 100%);
   background-color: hsl(300, 43%, 22%);
-}
+} */
 
 .reviews #box1 {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: 60px;
+  margin-right: 20px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(300, 43%, 22%);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .reviews #box2 {
-  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 20px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(300, 43%, 22%);
+  padding: 20px;
+  border-radius: 10px;
 }
 .reviews #box3 {
-  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-right: 20px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(300, 43%, 22%);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .reviews #title h1 {
