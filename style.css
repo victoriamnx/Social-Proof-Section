@@ -22,9 +22,15 @@ body {
   z-index: 1;
 }
 
+img#top {
+  position: fixed;
+  left: -300px;
+  top: -400px;
+}
+
 .container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   position: relative;
   /* padding: 200px; */
@@ -69,7 +75,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
+  margin-left: 100px;
 }
 
 .rate #rate1 {
@@ -120,90 +126,103 @@ body {
 }
 
 .reviews img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
+  justify-content: center;
+    margin: 15px;
 }
 
 .reviews {
   display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: center;
-  padding: 20px;
-}
-
-/* .reviews div {
-  display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  margin: 10px;
-  padding: 20px;
-  border-radius: 10px;
-  font-family: "League Spartan", sans-serif;
-  font-weight: 500;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(300, 43%, 22%);
-} */
+}
 
 .reviews #box1 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  margin-bottom: 60px;
+  margin-top: 20px;
   margin-right: 20px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(300, 43%, 22%);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
+}
+
+.reviews #box1 .box1inside {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
 }
 
 .reviews #box2 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   margin-top: 40px;
   margin-right: 20px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(300, 43%, 22%);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
 }
-.reviews #box3 {
+
+.reviews #box2 .box2inside {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.reviews #box3 {
+  display: flex;
+  align-items: flex-start;
   flex-direction: column;
   margin-top: 60px;
   margin-right: 20px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(300, 43%, 22%);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
 }
 
-.reviews #title h1 {
+.reviews #box3 .box3inside {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.reviews h1 {
   font-size: 15px;
   font-weight: 700;
   font-family: "League Spartan", sans-serif;
   color: hsl(0, 0%, 100%);
 }
 
-.reviews #title h2 {
+.reviews h2 {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "League Spartan", sans-serif;
   color: hsl(333, 80%, 67%);
 }
 
 .reviews p {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "League Spartan", sans-serif;
   color: hsl(300, 24%, 96%);
+  margin-bottom: 15px;
+}
+
+img#bottom {
+  position: fixed;
+  right: -200px;
+  bottom: -600px;
 }
 
 .attribution {
@@ -212,8 +231,9 @@ body {
   font-weight: 500;
   text-align: center;
 }
+
 .attribution a {
-  color: hsl(333, 80%, 67%);
+  color: hsl(300, 43%, 22%);
 }
 
 a:link {
@@ -221,7 +241,7 @@ a:link {
 }
 
 a:visited {
-  color: hsl(333, 80%, 67%);
+  color: hsl(300, 43%, 22%);
   text-decoration: none;
 }
 
