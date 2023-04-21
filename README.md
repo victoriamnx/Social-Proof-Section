@@ -7,22 +7,21 @@ This is a solution to the [https://www.frontendmentor.io/challenges/social-proof
 - [Result](#result)
 - [Links](#links)
 - [Built with](#built-with)
-- [What I learned](#what-i-learned)
 - [Author](#author)
 
 # Result
 
+![Screenshot 2023-04-21 155400](https://user-images.githubusercontent.com/96449803/233713918-463e6a23-30f5-4750-99d2-288cceac20d5.png)
+
 # Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-Yzhv8j0oHx]
+- Live Site URL: [https://social-proof-section-plum-psi.vercel.app/]
 
 # Built with
 
 - HTML5
 - CSS
-
-# What I learned
 
 # Author
 
