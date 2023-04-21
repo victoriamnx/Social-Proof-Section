@@ -12,7 +12,6 @@ This is a solution to the [https://www.frontendmentor.io/challenges/social-proof
 
 # Result
 
-
 # Links
 
 - Solution URL: []
@@ -24,7 +23,6 @@ This is a solution to the [https://www.frontendmentor.io/challenges/social-proof
 - CSS
 
 # What I learned
-
 
 # Author
 
